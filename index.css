@@ -41,6 +41,14 @@
 
 .contactItem {
     margin: 0 0 5px 0;
+    list-style-type: none;
+    vertical-align: middle;
+}
+.contactItem::before {
+    content: '* ';
+    color: rgb(226, 141, 30);
+    font-size: 20px;
+    vertical-align: middle;
 }
 
 .line {
