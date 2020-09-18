@@ -1,13 +1,18 @@
 .container {
     width: 80%;
     margin: 30px auto 0 auto;
-    padding: 15px;
+    padding: 40px;
     border-radius: 5px;
     box-shadow: 0 2px 4px 1px rgba(0,0,0,0.16);
 }
 
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .name {
-    text-align: center;
     margin: 0 15px;
 }
 
@@ -17,8 +22,30 @@
     border-radius: 50%;
 }
 
-.header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.sectionTitle {
+    padding: 15px;
+}
+
+.contactTitle {
+    margin-right: 15px;
+    color: rgb(177 43 43);
+    font-size: 20px;
+    font-weight: 600;
+    font-family: system-ui;
+}
+
+.contactInfo {
+    letter-spacing: 2.0px;
+    font-family: system-ui;
+}
+
+.contactItem {
+    margin: 0 0 5px 0;
+}
+
+.line {
+    margin: 0 auto;
+    height: 1px;
+    background-color: rgb(226, 141, 30);
+    border: none;
 }
